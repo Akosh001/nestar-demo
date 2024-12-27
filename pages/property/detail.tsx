@@ -1,6 +1,10 @@
-const DetailList = () => {
-  console.log("DETAIL COMPONENT");
-  return <div>DETAIL List {""}</div>;
+import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
+import { Container, Stack } from "@mui/material";
+import { NextPage } from "next";
+
+const PropertyDetail: NextPage = () => {
+  console.log("PROPERTY COMPONENT - PAGES ROUTER");
+  return <Container>Property Detail</Container>;
 };
 
-export default DetailList;
+export default withLayoutBasic(PropertyDetail);
