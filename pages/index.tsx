@@ -7,16 +7,19 @@ const Home: NextPage = () => {
     <Stack>
       <Stack flexDirection={"column"}>
         <Stack>
+          <Stack className="container">Trend Properties</Stack>
+        </Stack>
+        <Stack>
           <Stack className="container">Popular Properties</Stack>
         </Stack>
         <Stack>
-          <Stack className="container">Top Agents</Stack>
+          <Stack className="container">Advertisements</Stack>
         </Stack>
         <Stack>
           <Stack className="container">Top Properties</Stack>
         </Stack>
         <Stack>
-          <Stack className="container">Events</Stack>
+          <Stack className="container">Top Agents</Stack>
         </Stack>
       </Stack>
     </Stack>
