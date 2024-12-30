@@ -1041,33 +1041,43 @@
                 width: auto;
                 height: auto;
                 display: flex;
+                .top-agents-box {
+                  width: 233px;
+                  height: 285px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  transition: transform 0.3s;
+                  &:hover {
+                    opacity: 1;
+                    transform: scale(1.05);
+                  }
+                  strong {
+                    padding: 5px;
+                  }
+                  span {
+                    padding: 5px;
+                    font-family: $font;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                  }
+                  .card-img {
+                    position: relative;
+                    width: 208px;
+                    height: 209px;
+                    border-radius: 50%;
+                    background-size: cover;
+                    cursor: pointer;
+                    object-fit: cover;
+                  }
+                }
               }
             }
-            // .top-agents-card {
-            //   width: 205px;
-            //   height: 280px;
-            //   display: flex;
-            //   flex-direction: column;
-            //   img {
-            //     width: 209px;
-            //     height: 209px;
-            //     border-radius: 50%;
-            //     cursor: pointer;
-            //     object-fit: cover;
-            //   }
-            //   strong {
-            //     margin-top: 20px;
-            //     color: #181a20;
-            //     text-align: center;
-            //     font-family: $font;
-            //     font-size: 15px;
-            //     font-style: normal;
-            //     font-weight: 600;
-            //     line-height: normal;
-            //     text-transform: capitalize;
-            //     cursor: pointer;
-            //   }
-            // }
           }
         }
       }

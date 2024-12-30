@@ -41,12 +41,15 @@ const TopAgents = ({ initialInput, ...props }: any) => {
             >
               {topAgents.map((property, index) => {
                 return (
-                  <SwiperSlide key={index} className={"top-agents-slide"}>
+                  <Stack key={index} className={"top-agents-slide"}>
                     <TopAgentsCard />
-                  </SwiperSlide>
+                  </Stack>
                 );
               })}
             </Swiper>
+          </Box>
+          <Box className={"switch-btn swiper-agents-next"}>
+            <ArrowBackIosNewIcon />
           </Box>
         </Stack>
       </Stack>
@@ -55,7 +58,7 @@ const TopAgents = ({ initialInput, ...props }: any) => {
 };
 
 TopAgents.defaultProps = {
-  initialInput: [1, 2, 3, 4, 5, 6, 7],
+  initialInput: [1, 2, 3, 4, 5],
 };
 
 export default TopAgents;

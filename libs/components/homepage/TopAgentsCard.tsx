@@ -6,15 +6,16 @@ import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
 
 const TopAgentsCard = () => {
   return (
-    <Stack className={"top-agents-card"}>
+    <Stack className={"top-agents-box"}>
       <Box
         className={"card-img"}
         style={{
-          backgroundImage: `url("/img/agent.jpg")`,
+          backgroundImage: `url("/img/profile/girl.svg")`,
         }}
-      >
-        <div>$10</div>
-      </Box>
+      ></Box>
+
+      <strong>Swetlana</strong>
+      <span>Agent</span>
     </Stack>
   );
 };
