@@ -40,7 +40,7 @@ const PropertyList: NextPage = () => {
               </Stack>
 
               <Stack className={"total-result"}>
-                <Typography>Total 5 properties availabel</Typography>
+                <Typography>Total 5 properties available!</Typography>
               </Stack>
             </Stack>
           </Stack>
